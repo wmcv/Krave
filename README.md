@@ -1,12 +1,16 @@
 # Krave
 
-**Swipe-driven restaurant discovery powered by geospatial search, personalized ranking, and demand-driven catalog growth.**
+**A swipe-driven restaurant discovery platform combining geospatial search, personalized ranking, and demand-driven ingestion across 30,000+ restaurants.**
 
 [Live app](https://www.kravematch.com) · [Engineering blog](https://www.wmcvicar.me/blog/)
 
 > This repository contains public documentation and architecture diagrams for Krave. The production source code is maintained in a private repository.
 
 Krave helps people discover nearby restaurants through a swipe-based interface. Personal recommendations adapt to each user's behavior, while Group Discovery combines the learned preferences of selected friends without changing anyone's personal model.
+
+## Demo
+
+[![Watch the Krave demo](https://img.youtube.com/vi/4GmYPJW4Gco/maxresdefault.jpg)](https://youtu.be/4GmYPJW4Gco)
 
 The platform also expands geographically from real product demand. When someone opens Krave in an uncovered area, the backend records durable H3 demand and prioritizes that region for overnight ingestion.
 
